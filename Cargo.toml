@@ -26,10 +26,15 @@ http1 = { version = "1", optional = true, package = "http" }
 http0_2 = { version = "0.2", optional = true, package = "http" }
 js-sys = "0.3"
 lazy_static = "1"
-leptos = "0.7.0-beta5"
-leptos_axum = { version = "0.7.0-beta5", optional = true }
-leptos_actix = { version = "0.7.0-beta5", optional = true }
+
+leptos = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue" }
+leptos_axum = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue", optional = true }
+leptos_actix = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue", optional = true }
+
+
 leptos-spin = { version = "0.2", optional = true }
+
+
 num = { version = "0.4", optional = true }
 paste = "1"
 send_wrapper = "0.6.0"
@@ -47,7 +52,7 @@ codee = { version = "0.2", features = [
     "prost",
 ] }
 getrandom = { version = "0.2", features = ["js"] }
-leptos_meta = { version = "0.7.0-beta5" }
+leptos_meta = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue" }
 rand = "0.8"
 serde = { version = "1", features = ["derive"] }
 unic-langid = { version = "0.9", features = ["macros"] }
