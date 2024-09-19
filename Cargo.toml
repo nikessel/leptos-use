@@ -32,10 +32,10 @@ lazy_static = "1"
 # leptos_actix = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue", optional = true }
 # leptos_meta = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue" }
 
-leptos = { git = "https://github.com/niklass-l/leptos", branch = "main" }
-leptos_axum = { git = "https://github.com/niklass-l/leptos", branch = "main", optional = true }
-leptos_actix = { git = "https://github.com/niklass-l/leptos", branch = "main", optional = true }
-leptos_meta = { git = "https://github.com/niklass-l/leptos", branch = "main" }
+leptos = { git = "https://github.com/niklass-l/leptos", rev = "fd133dd79a97544ea8165549cc4cfd1a45e07580" }
+leptos_axum = { git = "https://github.com/niklass-l/leptos", rev = "fd133dd79a97544ea8165549cc4cfd1a45e07580", optional = true }
+leptos_actix = { git = "https://github.com/niklass-l/leptos", rev = "fd133dd79a97544ea8165549cc4cfd1a45e07580", optional = true }
+leptos_meta = { git = "https://github.com/niklass-l/leptos", rev = "fd133dd79a97544ea8165549cc4cfd1a45e07580" }
 
 
 leptos-spin = { version = "0.2", optional = true }
