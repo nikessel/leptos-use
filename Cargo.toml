@@ -27,15 +27,15 @@ http0_2 = { version = "0.2", optional = true, package = "http" }
 js-sys = "0.3"
 lazy_static = "1"
 
-leptos = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue" }
-leptos_axum = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue", optional = true }
-leptos_actix = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue", optional = true }
-leptos_meta = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue" }
+# leptos = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue" }
+# leptos_axum = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue", optional = true }
+# leptos_actix = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue", optional = true }
+# leptos_meta = { git = "https://github.com/niklass-l/leptos", branch = "fix-protected-parent-route-ssr-issue" }
 
-# leptos = { git = "https://github.com/niklass-l/leptos", branch = "main" }
-# leptos_axum = { git = "https://github.com/niklass-l/leptos", branch = "main", optional = true }
-# leptos_actix = { git = "https://github.com/niklass-l/leptos", branch = "main", optional = true }
-# leptos_meta = { git = "https://github.com/niklass-l/leptos", branch = "main" }
+leptos = { git = "https://github.com/niklass-l/leptos", branch = "main" }
+leptos_axum = { git = "https://github.com/niklass-l/leptos", branch = "main", optional = true }
+leptos_actix = { git = "https://github.com/niklass-l/leptos", branch = "main", optional = true }
+leptos_meta = { git = "https://github.com/niklass-l/leptos", branch = "main" }
 
 
 leptos-spin = { version = "0.2", optional = true }
